@@ -5,33 +5,30 @@ body, h1, p {
     }
     /* Puedo seleccionar elementos por su tipo */
     h1 {
-    color: rgba(255, 0, 174, 0.436);
+    color: rgba(246, 55, 12, 0.918);
+    }
+    h1{ text-align: center;
     }
     /* Puedo seleccionar elementos por su clase */
     .text {
     color: blue;
     }
+    p {text-align: center;}
     /* Puedo seleccionar elementos por su id */
     #last_p {
-    color: green;
+    color: rgb(15, 120, 186);
     }
     h2 {
         color:blueviolet;
     }
-    h3 {
-        color:aquamarine;
+    h2 {text-align: center;
     }
-    h4 {
-        color:aqua;
+    
+    p {font-size: 5.5;
     }
-    h5 {
-        color:blue;
+    p {font-style: italic;
     }
-    p {font-size: 3.5;
-    }
-    style {font-style: oblique;
-    }
+    
 
-    }
-    }
+
     
