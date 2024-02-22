@@ -1,37 +1,11 @@
 /* Es una práctica común eliminar margin y padding */
-body, h1, p { 
+body, h1, p {
     margin: 0;
     padding: 0;
     }
-    header{}
     /* Puedo seleccionar elementos por su tipo */
-
-    body{ background-color: rgb(201, 248, 233);
-    }
-    h1 { font-size: 3.5em;
-    }
-    
-    
-    
-    }
-    body{ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    }
-    h2 {font-size: 2em;
-    }
-    h3 {font-size: 2em;
-    }
-    h4 {font-size: 2em;
-    }
-    h5 {font-size: 2em;
-    }
-    p {font-size: 1.5em;
-    }
-    p{ font-family: Arial, Helvetica, sans-serif;
-    }
-    
-
-    
-    color: red;
+    h1 {
+    color: rgba(255, 0, 174, 0.436);
     }
     /* Puedo seleccionar elementos por su clase */
     .text {
@@ -41,3 +15,23 @@ body, h1, p {
     #last_p {
     color: green;
     }
+    h2 {
+        color:blueviolet;
+    }
+    h3 {
+        color:aquamarine;
+    }
+    h4 {
+        color:aqua;
+    }
+    h5 {
+        color:blue;
+    }
+    p {font-size: 3.5;
+    }
+    style {font-style: oblique;
+    }
+
+    }
+    }
+    
