@@ -4,11 +4,14 @@ body, h1, p {
     padding: 0;
     }
     /* Puedo seleccionar elementos por su tipo */
+    body {background-color: rgb(237, 228, 246);
+    }
     h1 {
     color: rgba(246, 55, 12, 0.918);
     }
     h1{ text-align: center;
     }
+    
     /* Puedo seleccionar elementos por su clase */
     .text {
     color: blue;
@@ -20,6 +23,9 @@ body, h1, p {
     }
     h2 {
         color:blueviolet;
+    }
+    h2 {
+    
     }
     h2 {text-align: center;
     }
