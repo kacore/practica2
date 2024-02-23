@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../Imágenes/karla"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "practica1"
+	}
+}

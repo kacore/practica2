@@ -3,37 +3,42 @@ body, h1, p {
     margin: 0;
     padding: 0;
     }
+    
     /* Puedo seleccionar elementos por su tipo */
-    body {background-color: rgb(237, 228, 246);
-    }
+
     h1 {
-    color: rgba(246, 55, 12, 0.918);
+    color: prgb(95, 2, 95);
     }
     h1{ text-align: center;
     }
-    
-    /* Puedo seleccionar elementos por su clase */
-    .text {
-    color: blue;
-    }
-    p {text-align: center;}
-    /* Puedo seleccionar elementos por su id */
-    #last_p {
-    color: rgb(15, 120, 186);
-    }
     h2 {
-        color:blueviolet;
+        color:rgb(250, 61, 124);
     }
-    h2 {
-    
-    }
-    h2 {text-align: center;
+        h2 {text-align: center;
     }
     
     p {font-size: 5.5;
     }
-    p {font-style: italic;
+    p {font-style: normal; text-align: center;
     }
+    /* Puedo seleccionar elementos por su clase */
+    .text {
+    color: purple
+    }
+    p {text-align: center;}
+    p 
+    /* Puedo seleccionar elementos por su id */
+    #last_p {
+    color: rgb(15, 120, 186);
+    }
+    body {background-color: rgb(234, 228, 239);
+    }
+    body {color: purple;
+    }
+    ol li {
+        color: rgb(5, 158, 158);
+    }
+    
     
 
 
