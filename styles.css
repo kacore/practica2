@@ -3,9 +3,23 @@ body, h1, p {
     margin: 0;
     padding: 0;
     }
+    select {text-align: center;
+    }
     
     /* Puedo seleccionar elementos por su tipo */
-
+  .text {
+    color: purple
+    }
+    #cabecera {
+        background-color: rgb(251, 66, 186);
+        text-align: center;
+        padding: 5px;
+    }
+    #contenido {
+        background-color: rgb(178, 249, 249);
+        text-align: left;
+        padding: 5px;
+    }
     h1 {
     color: prgb(95, 2, 95);
     }
@@ -14,19 +28,19 @@ body, h1, p {
     h2 {
         color:rgb(250, 61, 124);
     }
-        h2 {text-align: center;
-    }
     
     p {font-size: 5.5;
     }
+    
     p {font-style: normal; text-align: center;
     }
+
+    
     /* Puedo seleccionar elementos por su clase */
-    .text {
-    color: purple
-    }
-    p {text-align: center;}
-    p 
+    
+    
+
+
     /* Puedo seleccionar elementos por su id */
     #last_p {
     color: rgb(15, 120, 186);
