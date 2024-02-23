@@ -34,21 +34,40 @@ body, h1, p {
     
     p {font-style: normal; text-align: center;
     }
-
-    
-    /* Puedo seleccionar elementos por su clase */
-    
-    
-
-
-    /* Puedo seleccionar elementos por su id */
-    #last_p {
-    color: rgb(15, 120, 186);
+    .container {text-align: right;
     }
+    image {
+        width: 350px;
+    }
+    /* Puedo seleccionar elementos por su clase */
+
     body {background-color: rgb(234, 228, 239);
     }
     body {color: purple;
     }
+    .container{ 
+        text-align: center;
+    }
+    .img-01{ 
+        width: 50px;
+        height: 50px;
+      }
+    .img-03{
+        width: 50px;
+        height: 50px;
+    }
+    .img-03{
+        width: 10px;
+    }
+    
+    
+   
+
+    /* Puedo seleccionar elementos por su id */
+    #last_p {
+           color: purple; text-align: left;
+    }
+    
     ol li {
         color: rgb(5, 158, 158);
     }
