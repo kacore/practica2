@@ -3,7 +3,7 @@ body, h1, p {
     margin: 0;
     padding: 0;
     }
-    select {text-align: center;
+    select {text-align: left;
     }
     
     /* Puedo seleccionar elementos por su tipo */
@@ -32,10 +32,11 @@ body, h1, p {
     p {font-size: 5.5;
     }
     
-    p {font-style: normal; text-align: center;
+    p {font-style: normal; text-align: left;
     }
     .container {text-align: right;
     }
+
     image {
         width: 350px;
     }
@@ -65,7 +66,8 @@ body, h1, p {
 
     /* Puedo seleccionar elementos por su id */
     #last_p {
-           color: purple; text-align: left;
+           color: purple; 
+           text-align: left;
     }
     
     ol li {
