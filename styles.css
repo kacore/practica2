@@ -38,7 +38,7 @@ body, h1, p {
     }
 
     image {
-        width: 350px;
+        width: 100%;
     }
     /* Puedo seleccionar elementos por su clase */
 
@@ -49,22 +49,14 @@ body, h1, p {
     .container{ 
         text-align: center;
     }
-    .img-01{ 
-        width: 50px;
-        height: 50px;
-      }
-    .img-03{
-        width: 50px;
-        height: 50px;
-    }
-    .img-03{
-        width: 10px;
-    }
+    .image-02 { width: 500px; height: 300px; } 
+       
+      
     
-    
-   
-
-    /* Puedo seleccionar elementos por su id */
+    .img-03{ width: 500px; height: 300px; }  
+        
+      
+     /* Puedo seleccionar elementos por su id */
     #last_p {
            color: purple; 
            text-align: left;
@@ -72,7 +64,14 @@ body, h1, p {
     
     ol li {
         color: rgb(5, 158, 158);
-    }
+    }  
+   
+    
+    
+    
+   
+
+    
     
     
 
