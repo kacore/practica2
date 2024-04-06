@@ -45,41 +45,42 @@ body, h1, p {
      }
      
      .container-form a i{
-        color: rgb(127, 255, 131);
+        color:rgb(5, 158, 158);
         margin-right: 10px;
 
      }
-     .container-form form.campo, textarea{
+     .container-form form .campo, textarea{
         width: 100%;
         padding: 15px 10px;
-        font-size: 15px solid #dbdbdb;
+        font-size: 15px;
+        border: 1px;
         margin-bottom: 20px;
         border-radius: 3px;
-        outline: 0px;
-     }
-     .container-form form textarea{
+        outline: 0;
+    }
+    .container-form form textarea{
         max-width: 530px;
         min-width: 530px;
-        min-height: 140pxmax;
-        max-height: 150px;
-     }
-
-        .container-form .btn-enviar{
+        min-height: 140px;
+        max-height: 150px;         
+    }
+    .container-form .btn-enviar{
         padding: 15px;
         font-size: 16px;
         border: none;
         outline: 0px;
-        background: rgb(251, 156, 122);
-        color: white;
+        background: orange;
+        color: whitesmoke;
         border-radius: 3px;
         cursor: pointer;
         transition: all 300ms ease;
-        }
-         .container-form .btn-enviar:hover{
+    }
+    .container-form .btn-enviar{
         background: #e39;
-        }
+    }
 
-        
+     
+     
 
         
         
