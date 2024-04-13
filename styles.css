@@ -49,7 +49,7 @@ body, h1, p {
         margin-right: 10px;
 
      }
-     .container-form form .campo, textarea{
+     .container-form form .campo, textarea {
         width: 100%;
         padding: 15px 10px;
         font-size: 15px;
@@ -58,13 +58,13 @@ body, h1, p {
         border-radius: 3px;
         outline: 0;
     }
-    .container-form form textarea{
+    .container-form form textarea {
         max-width: 530px;
         min-width: 530px;
         min-height: 140px;
         max-height: 150px;         
     }
-    .container-form .btn-enviar{
+    .container-form .btn-enviar {
         padding: 15px;
         font-size: 16px;
         border: none;
@@ -75,21 +75,21 @@ body, h1, p {
         cursor: pointer;
         transition: all 300ms ease;
     }
-    .container-form .btn-enviar{
+    .container-form .btn-enviar {
         background: #e39;
     }
 
-     
-     
+   
+            
+    
 
-        
         
         /* Puedo seleccionar elementos por su tipo */
   .text {
-    color: purple
+    color: rgb(0, 128, 98)
     }
     #cabecera {
-        background-color: rgb(251, 66, 186);
+        background-color: #f5fb42;
         text-align: center;
         padding: 5px;
     }
@@ -103,9 +103,7 @@ body, h1, p {
     }
     h1{ text-align: center;
     }
-    h2 {
-        color:rgb(250, 61, 124);
-    }
+    
     
     p {font-size: 5.5;
     }
@@ -116,7 +114,7 @@ body, h1, p {
     }
 
     image {
-        width: 100%;
+        width: 25%;
     }
     /* Puedo seleccionar elementos por su clase */
 
@@ -136,15 +134,40 @@ body, h1, p {
       
      /* Puedo seleccionar elementos por su id */
     #last_p {
-           color: purple; 
-           text-align: left;
+           color: rgb(0, 128, 98) ;
+           text-align: center;           
     }
     
     ol li {
-        color: rgb(5, 158, 158);
+        color: rgb(158, 31, 5);
     }  
    
-    
+    html {
+        min-height: 100%;
+        position: relative;
+    }
+    body {
+        margin: 0;
+    }
+    .wrapper {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    footer {
+        background-color: rgb(143, 240, 208);
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+        color: rgba(51, 129, 238, 0.86);
+    }
+
+
+
+
+
+
     
     
    
