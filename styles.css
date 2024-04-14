@@ -3,19 +3,21 @@ body, h1, p {
     margin: 0;
     padding: 0;
     }   
+
+
     
 
-.navegacion{
-    width: 1000px;
-    margin: 30px auto;
-    background: rgb(245, 213, 154);
-}
-.navegacion ul{
-    list-style: none;
-}
-.menu > li{
-    /*position: relative;*/
-    display: inline-block;
+    .navegacion{
+        width: 1000px;
+        margin: 30px auto;
+        background: rgb(245, 213, 154);
+    }
+    .navegacion ul{
+        list-style: none;
+    }
+    .menu > li{
+        /*position: relative;*/
+        display: inline-block;
 }
     
     
@@ -133,7 +135,7 @@ body, h1, p {
     }
 
    
-            
+      
     
 
         
@@ -148,7 +150,7 @@ body, h1, p {
     }
     #contenido {
         background-color: rgb(178, 249, 249);
-        text-align: left;
+        text-align: justify;
         padding: 5px;
     }
     h1 {
@@ -161,14 +163,13 @@ body, h1, p {
     p {font-size: 5.5;
     }
     
-    p {font-style: normal; text-align: left;
+    p {font-style: normal; text-align: justify;
     }
-    .container {text-align: right;
+    .container {text-align: justify;
     }
 
-    image {
-        width: 25%;
-    }
+
+   
     /* Puedo seleccionar elementos por su clase */
 
     body {background-color: rgb(234, 228, 239);
@@ -176,14 +177,19 @@ body, h1, p {
     body {color: rgb(211, 142, 12);
     }
     .container{ 
-        text-align: center;
+        text-align: justify;
     }
-    .image-02 { width: 500px; height: 300px; } 
-       
-      
-    
-    .img-03{ width: 500px; height: 300px; }  
         
+
+
+
+
+
+
+
+
+
+
       
      /* Puedo seleccionar elementos por su id */
     #last_p {
@@ -217,6 +223,10 @@ body, h1, p {
         color: rgba(247, 82, 233, 0.86);
     }
 
+    .container {
+        text-align: center;
+    }
+    
 
 
 
