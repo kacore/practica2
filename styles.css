@@ -142,6 +142,7 @@ body, h1, p {
         /* Puedo seleccionar elementos por su tipo */
   .text {
     color: rgb(0, 128, 98)
+
     }
     #cabecera {
         background-color: #f5fb42;
@@ -155,12 +156,12 @@ body, h1, p {
     }
     h1 {
     color: prgb(95, 2, 95);
-    }
-    h1{ text-align: center;
+    text-align: center;
     }
     
     
     p {font-size: 5.5;
+        text-align: left;
     }
     
     p {font-style: normal; text-align: justify;
@@ -171,6 +172,9 @@ body, h1, p {
 
    
     /* Puedo seleccionar elementos por su clase */
+    .last p{
+        text-align: left;
+    }
 
     body {background-color: rgb(234, 228, 239);
     }
@@ -192,10 +196,7 @@ body, h1, p {
 
       
      /* Puedo seleccionar elementos por su id */
-    #last_p {
-           color: rgb(0, 128, 98) ;
-           text-align: center;           
-    }
+    
     
     ol li {
         color: rgb(175, 11, 167);
